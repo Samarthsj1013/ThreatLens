@@ -1,0 +1,8 @@
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+data/mitre_attack.json
+*.log
+.streamlit/
