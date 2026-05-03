@@ -169,7 +169,7 @@ Together they form a complete detection → analysis → attribution pipeline.
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@yourusername](https://github.com/Samarthsj1013)
 - LinkedIn: [your-linkedin](https://linkedin.com/in/yourlinkedin)
 
 ---
