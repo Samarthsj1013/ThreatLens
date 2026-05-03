@@ -28,6 +28,8 @@ st.markdown("""
 DEMO_MODE = False
 try:
     q = GraphQueries()
+    # Test the connection actually works
+    q.get_all_actors()
 except Exception:
     q = DemoQueries()
     DEMO_MODE = True

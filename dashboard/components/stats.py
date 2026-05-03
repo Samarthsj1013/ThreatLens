@@ -6,9 +6,13 @@ import pandas as pd
 
 def render_stats(q):
     st.subheader("📊 Threat Intelligence Overview")
-
-    # Top metrics
-    actors = q.get_all_actors()
+    try:
+        actors = q.get_all_actors()
+    except Exception:
+        from demo_data import DemoQueries
+        q = DemoQueries()
+        actors = q.get_all_actors()
+        
     top_techniques = q.get_top_techniques(limit=10)
     graph_data = q.get_full_graph_data()
 
